@@ -1,0 +1,47 @@
+body {
+    background-color: #bdbdbd;
+}
+  
+.calc-box {
+    margin: 50px auto 30px;
+    width: 300px;
+    height: 440px;
+    background-color: #455a64;
+    border-radius: 5px;
+}
+  
+.header {
+    padding: 20px 0 20px 0;
+    color: #eeeeee;
+}
+  
+.inputas,
+.inputas:active {
+    text-align:right;
+    padding: 7px;
+    outline: none;
+    color: #424242;
+    background-color: #bdbdbd;
+    border: 1px #455a64 solid;
+    border-radius: 5px;
+}
+  
+.btn {
+    color: #424242;
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+}
+  
+.buton-box {
+    margin: 32px;
+}
+  
+.bC {
+    color: #bdbdbd;
+    background-color: #d32f2f;
+}
+  
+.footer {
+    margin:  0 0 50px 0;
+}

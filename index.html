@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="container-fluid text-center">
+        <div class="calc-box">
+            <p class="header">CALCULATOR</p>
+            <input type="text" class="inputas" readonly id="input" size="29">
+            <div class="buton-box">
+                <div class="row">
+                <div><button class="btn" onclick='m("1")'>1</button></div>
+                <div><button class="btn" onclick='m("2")'>2</button></div>
+                <div><button class="btn" onclick='m("3")'>3</button></div>
+                <div><button class="btn" onclick='m("*")'>*</button></div>
+                </div>
+                <div class="row">
+                <div><button class="btn" onclick='m("4")'>4</button></div>
+                <div><button class="btn" onclick='m("5")'>5</button></div>
+                <div><button class="btn" onclick='m("6")'>6</button></div>
+                <div><button class="btn" onclick='m("/")'>/</button></div>
+                </div>
+                <div class="row">
+                <div><button class="btn" onclick='m("7")'>7</button></div>
+                <div><button class="btn" onclick='m("8")'>8</button></div>
+                <div><button class="btn" onclick='m("9")'>9</button></div>
+                <div><button class="btn" onclick='m("+")'>+</button></div>
+                </div>
+                <div class="row">
+                <div><button class="btn bC" onclick='c("")'>C</button></div>
+                <div><button class="btn b0" onclick='m("0")'>0</button></div>
+                <div><button class="btn" onclick='e()'>=</button></div>
+                <div><button class="btn" onclick='m("-")'>-</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">&copy Artūras Krištaponis</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
